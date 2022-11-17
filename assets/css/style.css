@@ -1,0 +1,30 @@
+@import url("./header.css");
+
+:root {
+
+    --branco: #ffffff;
+    --azul: #2A7AE4;
+    --azul-claro: #EAF2FD;
+    --cinza: #F5F5F5;
+    --preto-titulo: #464646;
+    --cinza-fundo: #E5E5E5;
+    --fonte-principal: 'Raleway';
+    --vermelho: #ff5757;
+
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}

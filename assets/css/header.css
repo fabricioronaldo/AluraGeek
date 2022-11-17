@@ -1,0 +1,27 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.cabecalho__botao {
+    padding: 1em 3em;
+    border: 2px solid var(--azul);
+    font-weight: 600;
+    color: var(--azul);
+    text-decoration: none;
+}
+
+.busca__imagem {
+    width: 24px;
+    height: 24px;
+    background-image:url("../img/Vector.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabecalho__busca {
+    display: none;
+}
