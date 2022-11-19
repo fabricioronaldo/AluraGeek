@@ -1,0 +1,35 @@
+.banner {
+    background-image: url("../img/banner-image.png");
+    background-size: cover;
+    overflow: hidden;
+    height: 192px;
+}
+
+.banner__conteudo {
+    padding: 5em 1em 1em 1em;
+    line-height: 10px;
+}
+
+.banner__titulo {
+    color: var(--branco);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.banner__texto {
+    font-size: 14px;
+    font-family: 600;
+    color: var(--branco);
+}
+
+.banner__botao {
+    margin-left: 1em ;
+    background-color: var(--azul);
+    
+    padding: 1em 3em;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--branco);
+    text-decoration: none;
+}
+
